@@ -332,7 +332,11 @@ body {
   .intro__paragraph{
     font-size: 24px;
   }
-
+  
+  .block__indication {
+  min-width: 500px;
+  justify-content: space-evenly;
+  }
 
   .message__end {
     width: 400px;
