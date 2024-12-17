@@ -323,12 +323,12 @@ body {
 
 
   .logo__content {
-    width: 100%;
+    width: 100% !important;
     height: auto;
     object-fit: cover;
     border-radius: 50%;
-    jusify-self: center;
-    align-self: center;
+    jusify-self: center !important;
+    align-self: center !important;
   }
 
   .intro__paragraph{
