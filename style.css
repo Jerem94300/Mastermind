@@ -336,6 +336,7 @@ body {
   }
 
   .intro__paragraph{
+    width: 100%
     font-size: 24px;
   }
   
