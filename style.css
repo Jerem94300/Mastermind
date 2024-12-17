@@ -320,6 +320,10 @@ body {
   body{
     min-width: 768px;
     }
+    
+    .header{
+      width: 100%;
+      }
 
 
   .logo__content {
