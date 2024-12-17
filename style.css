@@ -317,8 +317,8 @@ body {
 
 @media screen and (max-width: 768px){
   
-  .container{
-    width: 768px;
+  body{
+    min-width: 768px;
     }
 
 
