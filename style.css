@@ -327,7 +327,6 @@ body {
 
 
   .logo__content {
-    width: 100% !important;
     height: auto;
     object-fit: cover;
     border-radius: 50%;
