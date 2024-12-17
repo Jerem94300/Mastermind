@@ -318,7 +318,7 @@ body {
 @media screen and (max-width: 768px){
   
   .container{
-    min-width: 768px;
+    min-width: 700px;
     }
 
 
@@ -334,8 +334,8 @@ body {
   }
   
   .block__indication {
-  min-width: 500px;
-  justify-content: space-evenly;
+  width: 500px;
+  justify-content: space-around;
   }
 
   .message__end {
