@@ -323,8 +323,8 @@ body {
 
 
   .logo__content {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 50%;
     jusify-self: center;
