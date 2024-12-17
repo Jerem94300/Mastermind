@@ -318,7 +318,7 @@ body {
 @media screen and (max-width: 768px){
   
   .container{
-    min-width: 700px;
+    width: 768px;
     }
 
 
@@ -352,7 +352,7 @@ body {
   }
 
   .block__indication {
-    width: 650px;
+    min-width: 650px;
     height: 90px;
     align-items: center;
   }
