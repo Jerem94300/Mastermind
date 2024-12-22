@@ -316,26 +316,18 @@ body {
 
 
 @media screen and (max-width: 768px){
-  
-  body{
-    min-width: 768px;
-    }
-    
-    .header{
-      width: 100%;
-      }
 
 
   .logo__content {
     height: auto;
     object-fit: cover;
     border-radius: 50%;
-    jusify-self: center !important;
+    justify-self: center !important;
     align-self: center !important;
   }
 
   .intro__paragraph{
-    width: 100%
+    width: 100%;
     font-size: 24px;
   }
   
@@ -407,14 +399,6 @@ body {
   height: 40px;
 }
 
-.container {
-  max-width: 90%; 
-}
-
-
-body {
-  background: linear-gradient(135deg, rgba(79, 172, 254, 0.8), rgba(58, 117, 121, 0.8));
-}
 
   
 }
