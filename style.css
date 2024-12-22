@@ -317,7 +317,15 @@ body {
 
 @media screen and (max-width: 768px){
 
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .container{
+    margin: 0;
+    text-align: center;
     margin-bottom: 1.5rem; 
     background: linear-gradient(135deg, #4facfe, #3a7579);
     border-radius: 2rem;
