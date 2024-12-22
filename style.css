@@ -20,6 +20,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -74,15 +84,7 @@ body {
   color: red;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1400px;
-  height: auto;
-  margin-bottom: 2rem;
-}
+
 
 /* code secret */
 .tableRandom__code {
@@ -321,6 +323,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex !important;
+    justify-content: center !important;
   }
 
   .container{
