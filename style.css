@@ -45,8 +45,8 @@ body {
 
 .btn__random {
   margin-bottom: 2rem;
-  width: 300px;
-  height: 100px;
+  width: 10rem;
+  height: 5rem;
   border-radius: 2rem;
   border: none;
   background-color: #d66947;
@@ -317,11 +317,22 @@ body {
 
 @media screen and (max-width: 768px){
 
+  .container{
+    margin-bottom: 1.5rem; 
+    background: linear-gradient(135deg, #4facfe, #3a7579);
+    border-radius: 2rem;
+    border: 2px solid black;
+    margin: 0 2rem;
+    max-width: 460px !important;
+
+
+  }
+  
+
 
   .logo__content {
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
     justify-self: center !important;
     align-self: center !important;
   }
@@ -329,12 +340,47 @@ body {
   .intro__paragraph{
     width: 100%;
     font-size: 24px;
+    margin-top: 2rem;
   }
   
   .block__indication {
   width: 500px;
   justify-content: space-around;
   }
+
+  .table{
+    display: flex;
+    justify-self: center !important;
+    align-self: center !important;
+    
+
+
+  }
+
+  tbody{
+    justify-content: center !important;
+    align-items: center !important;
+
+
+
+
+
+  }
+
+
+
+  .feedback__position {
+   
+    margin-left: 0.5rem !important;
+    
+  }
+
+  .feedback__color {
+   
+    margin-right: 0.5rem !important;
+    
+  }
+
 
   .message__end {
     width: 400px;
@@ -350,18 +396,22 @@ body {
   }
 
   .block__indication {
-    min-width: 650px;
+    min-width: 550px;
     height: 90px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
   .malPlace__text {
     width: 150px;
+    height: 80px;
     font-size: 16px;
   }
   
   .bienPlace__text {
     width: 150px;
+    height: 80px;
     font-size: 16px;
   }
   
@@ -390,9 +440,6 @@ body {
     font-size: 20px;
 }
 
-.container > * {
-  margin-bottom: 1.5rem; 
-}
 
 .table td {
   width: 40px;
