@@ -326,6 +326,10 @@ body {
   color: black;
 }
 
+.hidden {
+  display: none;
+}
+
 
 
 
@@ -371,14 +375,13 @@ body {
   }
   
   .block__indication {
-  width: 500px;
-  justify-content: space-around;
+  width: 100%;
   }
 
   .table{
     display: flex;
-    justify-self: center !important;
-    align-self: center !important;
+    min-width: 100%;
+
     
 
 
@@ -423,7 +426,6 @@ body {
   }
 
   .block__indication {
-    min-width: 550px;
     height: 90px;
     display: flex;
     justify-content: space-between;
@@ -431,15 +433,15 @@ body {
   }
 
   .malPlace__text {
-    width: 150px;
-    height: 80px;
-    font-size: 16px;
+    padding: 0.5rem;
+    width: 60px;
+    font-size: 8px;
   }
   
   .bienPlace__text {
-    width: 150px;
-    height: 80px;
-    font-size: 16px;
+    padding: 0.5rem;
+    width: 60px;
+    font-size: 8px;
   }
   
   .table {
